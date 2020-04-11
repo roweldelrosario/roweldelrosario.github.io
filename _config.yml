@@ -16,6 +16,10 @@ author:
   url:            http://www.himbak.com/
 
 
+plugins:
+  - jekyll-paginate
+paginate: 5
+
 # Custom vars
 version:          1.0.0
 
