@@ -6,6 +6,7 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
+    <span class="post-date">{{ post.date | date: "%A %b %d, %Y" }}</span>
     <h1 class="post-title">{{ post.title }}</h1>
     <span class="post-tags">
       {%- for tag in post.tags -%}
@@ -13,7 +14,6 @@ title: Home
         <a class="tag-item" href="/tag/{{ tag_name }}">{{ tag_name }}</a>    
       {%- endfor -%}
     </span>
-    <span class="post-date">{{ post.date | date: "%A %b %d, %Y" }}</span>
     <p>{{ post.content | strip_html | truncatewords:30}}</p>
     <a href="{{ post.url }}">Read more</a>
   </div>
