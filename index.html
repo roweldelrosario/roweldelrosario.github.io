@@ -13,7 +13,7 @@ title: Home
         <a class="tag-item" href="/tag/{{ tag_name }}">{{ tag_name }}</a>    
       {%- endfor -%}
     </span>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date: "%A %b %d, %Y" }}</span>
     <p>{{ post.content | strip_html | truncatewords:30}}</p>
     <a href="{{ post.url }}">Read more</a>
   </div>
