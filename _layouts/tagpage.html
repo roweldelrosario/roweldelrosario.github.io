@@ -5,15 +5,12 @@ layout: default
 <div class="post">
 <h1 class="tag-title">Tag: {{ page.tag }}</h1>
 <ul>
-{% for post in site.tags[page.tag] %}
-  {% if post.lang %}
-  <li lang="{{post.lang}}">
-  {% else %}
+{%- for post in site.tags[page.tag] %}
   <li>
-  {% endif %}
-  	<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-  	{{ post.description }}
-  	<!-- Tags: {{ post.tags | join: ", " }} -->
+	<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+	{%- unless post.description == blank -%}  
+	  {{ post.description }}
+	{%- endunless %}
   </li>
 {% endfor %}
 </ul>
@@ -21,4 +18,4 @@ layout: default
 
 <hr>
 
-{% include archive.html %}
+{%- include archive.html -%}

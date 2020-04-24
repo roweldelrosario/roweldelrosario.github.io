@@ -3,4 +3,4 @@ layout: page
 title: Tags
 ---
 
-{% include archive.html %}
+{%- include archive.html -%}

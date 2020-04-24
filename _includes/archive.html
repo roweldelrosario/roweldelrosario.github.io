@@ -4,8 +4,8 @@
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-{% for temptag in sortedtemptags %}
-  {% assign tagitems = temptag | split: '#' %}
+{%- for temptag in sortedtemptags -%}
+  {%- assign tagitems = temptag | split: '#' -%}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
   <a class="tag-item" href="/tag/{{ tagname }}">{{ tagname }}</a>
-{% endfor %}
+{%- endfor -%}
