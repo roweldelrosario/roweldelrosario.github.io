@@ -9,11 +9,11 @@ permalink:        pretty
 title:            Himbak
 tagline:          'Life in Japan'
 description:      "Life in Japan"
-url:              http://www.himbak.com/
+url:              https://www.himbak.com
 
 author:
   name:           'Rowel del Rosario'
-  url:            http://www.himbak.com/
+  url:            https://www.himbak.com
 
 
 plugins:
