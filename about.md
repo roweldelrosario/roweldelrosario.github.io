@@ -11,6 +11,7 @@ This is a personal blog about living in Japan. The purpose is to document our ex
 * Using [Jekyll](http://jekyllrb.com) to make things simple.
 * Theme based from [Hyde](https://hyde.getpoole.com)
 * Tagging mechanism is from [Long Qian](https://github.com/qian256/qian256.github.io)
+* Some other cool stuff from [Jekyll Codex](https://jekyllcodex.org)
 
 Thanks!
 
