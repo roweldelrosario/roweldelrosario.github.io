@@ -12,6 +12,7 @@ No plugins required.
 
 import glob
 import os
+from io import open
 
 post_dir = '_posts/'
 tag_dir = 'tag/'
