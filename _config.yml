@@ -8,8 +8,9 @@ permalink:        pretty
 # Setup
 title:            Himbak
 tagline:          'Life in Japan'
-description:      "Life in Japan"
+description:      'Life in Japan'
 url:              https://roweldelrosario.github.io
+image:            'public/image/site.png'
 
 author:
   name:           'Rowel del Rosario'
