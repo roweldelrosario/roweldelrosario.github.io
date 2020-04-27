@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Site Security
+image: public/image/security_report_after.png
 tags: site-foundation
 ---
 
