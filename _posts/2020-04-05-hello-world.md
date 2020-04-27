@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World!
+description: How I use Namecheap and Github Pages to meet my criteria for a personal website.
 tags: site-foundation
 ---
 
