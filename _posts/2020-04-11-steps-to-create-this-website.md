@@ -41,3 +41,14 @@ You can follow the steps layed out at [Github Help](https://help.github.com/arti
 Steps 1 and 2 are independent of each other, so you can do step 2 first before step 1. But you need to finish both step 1 and step 2 before proceeding to step3. Also, please note that you don’t need step 2 and step 3 if you are happy with having `github.io` in your website address. 
 
 You might also want to check the [Enforce HTTPS](https://help.github.com/en/github/working-with-github-pages/securing-your-github-pages-site-with-https) setting for your Github Pages site, unless you want web browsers to flag your site as *Not Secure*.
+
+
+
+---
+
+**Updated Monday Apr 27, 2020**
+
+Currently, this site is no longer directly hosted from Github Pages. From [this post](https://himbak.com/2020/04/19/site-security/) I described how I made a few changes related to site security, changing the way how the site is deployed. The raw resources for building the site are still on Github, but the site is now served through Netlify. 
+
+The [Github repository](https://github.com/roweldelrosario/roweldelrosario.github.io) now has two branches: *master* and *himbak*. Changes related to the site theme will be on *master* branch, while *himbak* branch contains the posts. My [GitHub Pages](https://roweldelrosario.github.io/) site, which is connected to *master* branch, will show the theme along with some sample posts. On the other hand, Netlify automatically builds [himbak.com](https://himbak.com) from *himbak* branch. By having two branches like this, I can experiment on the user interface (using the *master* branch)  while not affecting the main site (which is using the *himbak* branch). Eventually, my workflow will involve just adding posts to *himbak* branch.
+
