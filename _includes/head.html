@@ -12,6 +12,7 @@
   {%- assign final_description = page.description -%}
   {%- unless final_description %}{% assign final_description = pagecontent_description %}{% endunless -%}
   <meta name="description" content="{{ final_description }}">
+  {% if page.robots %}<meta name="robots" content="{{ page.robots }}" />{% endif %}
 
   <!-- Twitter/Open Graph/Facebook integration -->
   <meta name="twitter:card" content="summary">
