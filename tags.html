@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+<h1 class="tag-title">Browse by tag</h1>
+<!-- sort tags alphabetically -->
+{%- assign taglist = site.tags | sort -%}
+{% for tag in taglist %}
+  {%- assign tagname = tag | first -%}
+  {%- assign posts = tag | last -%}
+{{ tagname }}
+  <ul>
+  {% for post in posts %}
+    {% if post.tags contains tagname %}
+    <li>
+	    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> ({{ post.date | date: "%A %b %d, %Y" }})<br>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>
