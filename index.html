@@ -7,7 +7,7 @@ description: This is temporary site description.
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <span class="post-date">{{ post.date | date: "%A %b %d, %Y" }}</span>
+    <span class="post-date">{{ post.date | date: "%A %B %d, %Y" }}</span>
     <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <p>{{ post.content | strip_html | truncatewords:30}}</p>
     <a href="{{ post.url | absolute_url }}">Read More</a>
