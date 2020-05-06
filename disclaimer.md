@@ -35,4 +35,4 @@ All logos and trademarks of third parties referenced on https://himbak.com are t
 
 #### CONTACT US
 
-Should you have any feedback, comments, or other inquiries, please contact us by email: &#097;&#100;&#109;&#105;&#110;&#064;&#104;&#105;&#109;&#098;&#097;&#107;&#046;&#099;&#111;&#109;
+Should you have any feedback, comments, or other inquiries, please contact us by email: admin@himbak.com
