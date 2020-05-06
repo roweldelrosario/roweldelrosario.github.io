@@ -3,18 +3,18 @@ layout: page
 title: About
 ---
 
-This is a personal blog about living in Japan. The purpose is to document our experiences here. 
+This is a personal blog about life in Japan. Most of the articles will be from my experiences living in Japan, although some topics maybe related to life in general.
 
+The source code for this site can be found at [Github](https://github.com/roweldelrosario/roweldelrosario.github.io), released under MIT license.
 
-## Look and feel
+## About Me
 
-* Using [Jekyll](http://jekyllrb.com) to make things simple.
-* Theme based from [Hyde](https://hyde.getpoole.com)
-* Tagging mechanism is from [Long Qian](https://github.com/qian256/qian256.github.io)
-* Some other cool stuff from [Jekyll Codex](https://jekyllcodex.org)
+- came to Japan in the early 2000s using an engineer visa 
+- been working as an embedded systems (firmware) engineer
+- living with my family (all non-Japanese, permanent visa holders)
+- proud owner of a house since 2015  
+(Technically speaking the bank currently owns the house, but I pay for the property taxes)
 
 Thanks!
 
-<p class="message">
-  I'm a firmware engineer and not a web developer. I learned about web technologies when I was in university around year 19.. uhhmm.. nevermind. So please bear with me.
-</p>
+[Disclaimer](/disclaimer)
