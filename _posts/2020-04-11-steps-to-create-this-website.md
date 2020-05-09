@@ -9,9 +9,9 @@ Following are the steps I took to make this site online.
 
 ### 1. Prepare a Github Pages site
 
-Just follow what is written at  [Github Pages](https://pages.github.com). You need a [Github](https://github.com) account to proceed, so sign up for a free account if you don’t have one.
+Just follow what is written on [Github Pages](https://pages.github.com). You need a [Github](https://github.com) account to proceed, so sign up for a free account if you don’t have one.
 
-[Jekyll](https://jekyllrb.com) has a default theme, but you can use a different one you like. I forked the [Hyde theme repository](https://github.com/poole/hyde) and add a few changes related to tagging which comes from [another repository](https://github.com/qian256/qian256.github.io), which is also based from Hyde theme.
+[Jekyll](https://jekyllrb.com) has a default theme, but you can use a different one you like. I forked the [Hyde theme repository](https://github.com/poole/hyde) and add a few changes related to tagging which comes from [another repository](https://github.com/qian256/qian256.github.io), which is also based on Hyde theme.
 
 I’m using a Mac to test the site locally. You can follow the steps from [Github Help](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll). I already have Ruby, so I just installed Jekyll and clone my Github repository to a local directory.
 
@@ -27,7 +27,7 @@ The search results will show many suggestions, as well as how much it would cost
 
 ### 3. Use your domain name for your Github Pages site
 
-You need to make a connection between the domain name you registered at step 2, and the Github Pages site you created at step 1.
+You need to make a connection between the domain name you registered at step 2, and the Github Pages site you created in step 1.
 
 In my case, when someone uses a web browser and input [himbak.com](https://himbak.com)(my domain name) in the address, I want the browser to show the contents of [roweldelrosario.github.io](https://roweldelrosario.github.io/)(my Github Pages site).
 
@@ -43,6 +43,6 @@ You might also want to check the [Enforce HTTPS](https://help.github.com/en/gith
 
 **Updated Monday April 27, 2020**
 
-Currently, this site is no longer directly hosted from Github Pages. From [this post](https://himbak.com/2020/04/19/site-security/) I described how I made a few changes related to site security, changing the way how the site is deployed. The raw resources for building the site are still on Github, but the site is now served through Netlify. 
+Currently, this site is no longer directly hosted by Github Pages. From [this post](https://himbak.com/2020/04/19/site-security/) I described how I made a few changes related to site security, changing the way how the site is deployed. The raw resources for building the site are still on Github, but the site is now served through Netlify. 
 
 The [Github repository](https://github.com/roweldelrosario/roweldelrosario.github.io) now has two branches: *master* and *himbak*. Changes related to the site theme will be on *master* branch, while *himbak* branch contains the posts. My [GitHub Pages](https://roweldelrosario.github.io/) site, which is connected to *master* branch, will show the theme along with some sample posts. On the other hand, Netlify automatically builds [himbak.com](https://himbak.com) from *himbak* branch. By having two branches like this, I can experiment on the user interface (using the *master* branch)  while not affecting the main site (which is using the *himbak* branch). Eventually, my workflow will involve just adding posts to *himbak* branch.
