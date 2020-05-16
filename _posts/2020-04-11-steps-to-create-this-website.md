@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Steps to create this website
-description: My personal experience to create a personal website in year 2020. 
+description: My experience to create a personal website in 2020. 
 tags: site-foundation
 ---
 

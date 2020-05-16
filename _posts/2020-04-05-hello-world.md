@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-description: How I use Namecheap and Github Pages to meet my criteria for a personal website.
+description: What leads me to use Namecheap and Github to create a personal website.
 tags: site-foundation
 ---
 
@@ -29,7 +29,7 @@ Many blog web hosting services exist. [Wordpress](https://wordpress.org) and [Gi
 
 Wordpress has a bad reputation when it comes to security. I also thought it was an overkill for my use case so I decided to use Github. In addition to publishing personal websites, Github offers resource management  (website’s source codes and contents) using a git repository. It means all changes to the website will be backed up and can be tracked in a very efficient way.
 
-The problem with hosting services, including Github Pages,  is that your website address (URL) is not really personal. For example, when you publish a website using Github Pages, your URL will be `username.github.io`. If you like to have `my-own-web-address.com` you need to register a domain name (of course it needs to be available as well).
+The problem with hosting services, including Github Pages, is that your website address (URL) is not really personal. For example, when you publish a website using Github Pages, your URL will be `username.github.io`. If you like to have `my-own-web-address.com` you need to register a domain name (of course it needs to be available as well).
 
 ### Namecheap for domain name registration
 
